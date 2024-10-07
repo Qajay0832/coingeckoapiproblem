@@ -22,6 +22,7 @@ const Table = ({tableData}) => {
             symbol={e.symbol}
             currentPrice={e.current_price}
             index={i}
+            key={i}
           />
         ))}
       </tbody>

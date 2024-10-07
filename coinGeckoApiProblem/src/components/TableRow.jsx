@@ -1,6 +1,8 @@
 import React from 'react'
 
 const TableRow = ({name,symbol,priceChange,currentPrice,image,index}) => {
+  console.log('key',index);
+  
   return (
     <tr key={index}>
         <td>{name}</td>
